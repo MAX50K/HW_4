@@ -30,3 +30,13 @@ if (diapasonTrue){
 } else {
     console.log("The number is not in the diapason of 10 to 20");
 }
+// 5
+let name = prompt("Enter your name")
+let email = prompt("Enter your email");
+let password = prompt("Enter your password");
+alert("Check");
+if (name.length >= 3 && email.includes("@") && password.length >= 6){
+    alert("Перенаправляю на іншу сторінку...")
+} else {
+    alert("You failed...")
+}
